@@ -14,6 +14,12 @@ The MjFlow mobile app (iOS, iPadOS, Android) is a remote companion for MjFlow ru
 - **No notifications.** Allow notifications for MjFlow in the phone's settings, and check that the device has the notification permission on your computer.
 - **Remove a phone.** On your computer, open "Paired devices" and remove it; the app then forgets that computer.
 
+## Delete your data
+MjFlow (developer: Mohammed Aljahdali) keeps no account and no user data on its servers. The only item stored outside your devices is the push notification token of a phone that has notifications on.
+- In the app, turn notifications off, or on your computer open "Paired devices" and remove the phone: its push token is deleted from your computer and from the MjFlow notification relay at once.
+- Deleting the app removes everything it stored on the phone (pairing keys, cache, preferences).
+- Questions or a deletion request by email: mohd.aljahdali.d@gmail.com (handled within 30 days).
+
 ## Contact
 - Report a problem: [open an issue](https://github.com/MohdAljahdali/MjFlow-releases/issues)
 - Email: mohd.aljahdali.d@gmail.com
@@ -34,6 +40,12 @@ The MjFlow mobile app (iOS, iPadOS, Android) is a remote companion for MjFlow ru
 - **التطبيق لا يصل إلى حاسوبي.** تأكد أن MjFlow يعمل وأن الجوال على الشبكة نفسها أو Tailscale أو Cloud Bridge الذي فعّلته.
 - **لا تصلني إشعارات.** اسمح بإشعارات MjFlow في إعدادات الجوال، وتأكد أن للجهاز صلاحية الإشعارات على حاسوبك.
 - **إزالة جوال.** من قائمة الأجهزة المقترنة على حاسوبك احذفه، فينسى التطبيق ذلك الحاسوب.
+
+## حذف بياناتك
+لا يحتفظ MjFlow (المطوّر: Mohammed Aljahdali) بأي حساب أو بيانات مستخدم على خوادمه. العنصر الوحيد المحفوظ خارج أجهزتك هو رمز الإشعارات للجوال الذي فعّل الإشعارات.
+- في التطبيق أوقف الإشعارات، أو من «Paired devices» على حاسوبك احذف الجوال: يُحذف رمز الإشعارات من حاسوبك ومن وسيط إشعارات MjFlow فورًا.
+- حذف التطبيق يحذف كل ما حفظه على الجوال (مفاتيح الاقتران والنسخة المؤقتة والتفضيلات).
+- للاستفسار أو طلب الحذف بالبريد: mohd.aljahdali.d@gmail.com (خلال 30 يومًا).
 
 ## التواصل
 - الإبلاغ عن مشكلة: [افتح issue](https://github.com/MohdAljahdali/MjFlow-releases/issues)
